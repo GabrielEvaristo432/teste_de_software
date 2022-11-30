@@ -1,19 +1,20 @@
-// const somaCalculadora = (a, b) => a + b;
-// const subCalculadora = (a, b) => a - b;
-// const multiCalculadora = (a, b) => a * b;
-// const divCalculadora = (dividendo, divisor) => {
-//   if (divisor == 0) {
-//     throw new Error("Não é possível dividir por zero" + divisor)
-//   }
-//   return dividendo / divisor
-// }
+const soma = (a, b) => a + b;
+const subtracao = (a, b) => a - b;
+const multiplicacao = (a, b) => a * b;
+const divisao = (dividendo, divisor) => {
+  if (divisor == 0) {
+    throw new Error("Não é possível dividir por zero" + divisor)
+  }
+  return dividendo / divisor
+}
+const media = (val1, val2, val3) => { return (val1 + val2 + val3) / 3 }
 
-// export {
-//   somaCalculadora,
-//   subCalculadora,
-//   multiCalculadora,
-//   divCalculadora
-// }
+export {
+  soma,
+  subtracao,
+  multiplicacao,
+  divisao,
+  media
+}
 
-const media =(val1,val2,val3) => {return (val1 + val2 + val3)/3}
-export {media}
+
